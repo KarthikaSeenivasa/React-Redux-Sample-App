@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  height: 50px;
+  padding: 20px;
+  color: #222;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Design inspiration:  https://dribbble.com/shots/1978243-Latest-News */
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.searchBox {
+  font-size: 20px;
+  width: 780px;
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: 2px solid grey;
+}
+
+.btnSearch {
+  font-size: 20px;
+  width: 80px;
+  height: 66px;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: 2px solid grey;
+}
+
+.card {
+  width: 280px;
+  height: 100%;
+  padding: 50px;
+  display: inline-block;
+  margin: 60px auto;
+  /*box-shadow: 10px 5px 40px 20px  #2d1896 */
+  /*transition: 0.25s;*/
+}
+.card:focus {
+  box-shadow: 10px 5px 40px 20px #7e8015;
+  cursor: pointer;
+}
+.card:focus .button-primary {
+  transform: translate(10px, 0);
+}
+
+.card-header {
+  height: 150px;
+  width: 100%;
+  padding: 10px;
+  width: 100%;
+  background-size: cover;
+  color: #fff;
+}
+
+.card-header--title {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card-body {
+  padding: 10px;
+  background-color: rgba(237, 238, 238, 0.863);
+  width: 100%;
+  height: 50px;
+}
+
+.card:focus .card-body {
+  padding: 10px;
+  background-color: rgba(237, 238, 238, 0.863);
+  width: 100%;
+  height: 280px;
+}
+
+.card:focus .countryDetails {
+  display: block;
+}
+
+.countryDetails {
+  display: none;
+}
+.cardsList {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.date {
+  font-size: 11px;
+  font-weight: 600;
+  color: grey;
+}
+
+.body-content {
+  padding-bottom: 40px;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.button-primary {
+  border: none;
+
+  box-shadow: none;
+  font-family: inherit;
+  background-color: transparent;
+  color: #341cac;
+  font-size: 15px;
+  transition: 0.25s;
+}
+.button-primary i {
+  padding-right: 4px;
+}
+
+.designer-link {
+  color: #fff;
+  text-align: center;
+  fon-size: 12px;
+  text-decoration: none;
+  display: block;
+}
